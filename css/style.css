@@ -1,11 +1,12 @@
 /*General Styles */
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
 }
 
 .container {
@@ -57,7 +58,7 @@ header h1 {
 	position: absolute;
 	top: 28px;
 	left: 90px;
-	font-size: 30px;
+	font-size: 1.875em;
 	line-height: 1;
 	margin: 0;
 }
@@ -123,14 +124,14 @@ section h3 {
 }
 
 section h2 {
-	font-size: 20px;
+	font-size: 1.25em;
 	margin: 0;
 	margin-bottom: 14px;
 }
 
 section h3, 
 section p {
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 section h2, 
@@ -168,7 +169,7 @@ section p {
 
 .call-to-action p {
 	color: white;
-	font-size: 33px;
+	font-size: 2.0625em;
 	font-weight: bold;
 	line-height: 45px;
 	margin: 0 auto 32px;
@@ -185,7 +186,7 @@ section p {
 			border-radius: 4px;
 	color: white;
 	display: block;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
 	height: 55px;
 	line-height: 53px;
@@ -321,7 +322,7 @@ section p {
 	   -moz-border-radius: 2px;
 			border-radius: 2px;
 	display: none;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 1;
 	margin: 0;
@@ -353,7 +354,7 @@ section p {
 .portfolio figcaption a {
 	color: #504f50;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: bold;
 	margin: 22.5px auto auto 15px;
 	text-transform: uppercase;
@@ -362,7 +363,7 @@ section p {
 .portfolio figcaption span {
 	color: #aba7ab;
 	float: right;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-style: italic;
 	margin: 25px 22px auto auto;
 }
@@ -388,9 +389,9 @@ section p {
 	width: 87.18%;
 }
 
-.services i {
+.services .fa {
 	color: #39c9da;
-	font-size: 33px;
+	font-size: 2.0625em;
 	margin-bottom: 20px;
 }
 
@@ -458,7 +459,7 @@ section p {
 			border-radius: 2px;
 	color: white;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 0.875em;
 	height: 35px;
 	line-height: 1;
 	padding-top: 10px;
@@ -523,6 +524,7 @@ section p {
 }
 
 .submit {
+	font-size: 1.25em;
 	margin: 0;
 	text-align: right;
 }
@@ -553,7 +555,6 @@ section p {
 	   -moz-border-radius: 4px;
 			border-radius: 4px;
 	color: white;
-	font-size: 20px;
 	font-weight: bold;
 	height: 55px;
 	line-height: 1;
@@ -569,7 +570,7 @@ section p {
 
 .contact h4 {
 	color: #504f50;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: bold;
 	margin-bottom: 21px;
 }
@@ -674,7 +675,7 @@ footer p {
 
 @media (max-width: 373px) {
 	.call-to-action p {
-		font-size: 22px;
+		font-size: 1.375em;
 		margin-bottom: 20px;
 		width: 100%;
 	}
@@ -741,7 +742,7 @@ footer p {
 	
 	.portfolio figcaption span {
 		float: none;
-		display:inline-block;
+		display: inline-block;
 	}
 	
 	.portfolio figcaption {
@@ -751,7 +752,7 @@ footer p {
 
 @media (max-width: 750px) {
 	.portfolio .more {
-		font-size: 16px;
+		font-size: 1em;
 	}
 }
 
@@ -772,7 +773,7 @@ footer p {
 	}
 	
 	.portfolio .more {
-		font-size: 20px;
+		font-size: 1.25em;
 	}
 }
 
